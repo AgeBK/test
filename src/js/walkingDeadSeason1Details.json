@@ -1,0 +1,584 @@
+{
+    "_id": "5256cb1619c2956ff605c6fc",
+    "air_date": "2010-10-31",
+    "episodes": [
+        {
+            "air_date": "2010-10-31",
+            "crew": [
+                {
+                    "credit_id": "5256cb2119c2956ff605cfa2",
+                    "department": "Directing",
+                    "gender": null,
+                    "id": 4027,
+                    "job": "Director",
+                    "name": "Frank Darabont",
+                    "profile_path": "/fLKzpG3J88lPr8y8dCJbcFKN6iX.jpg"
+                },
+                {
+                    "credit_id": "5256cb1b19c2956ff605c9ca",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 4027,
+                    "job": "Writer",
+                    "name": "Frank Darabont",
+                    "profile_path": "/fLKzpG3J88lPr8y8dCJbcFKN6iX.jpg"
+                }
+            ],
+            "episode_number": 1,
+            "guest_stars": [
+                {
+                    "character": "Jenny Jones",
+                    "credit_id": "578e5d64c3a3686efa00c2a8",
+                    "gender": 0,
+                    "id": 1653224,
+                    "name": "Keisha Tillis",
+                    "order": 129,
+                    "profile_path": null
+                },
+                {
+                    "character": "Lam Kendal",
+                    "credit_id": "578e5dbcc3a3686ecc00a1a9",
+                    "gender": 0,
+                    "id": 78885,
+                    "name": "Jim R. Coleman",
+                    "order": 129,
+                    "profile_path": "/hXVUwGegUIb7zpnbTPdtZD5dbq4.jpg"
+                },
+                {
+                    "character": "Leon Basset",
+                    "credit_id": "578e5cab925141086400f82c",
+                    "gender": 0,
+                    "id": 1328185,
+                    "name": "Linds Edwards",
+                    "order": 128,
+                    "profile_path": "/cUZynH2VjowyMJ8CTKISxwvAcMu.jpg"
+                },
+                {
+                    "character": "Amy Harrison",
+                    "credit_id": "5256cb3b19c2956ff605e292",
+                    "gender": 1,
+                    "id": 131820,
+                    "name": "Emma Bell",
+                    "order": 30,
+                    "profile_path": "/sJdiESyrBouoNufL36vCMdOLJjQ.jpg"
+                },
+                {
+                    "character": "Morgan Jones",
+                    "credit_id": "5256cb3c19c2956ff605e37c",
+                    "gender": 2,
+                    "id": 1120,
+                    "name": "Lennie James",
+                    "order": 7,
+                    "profile_path": "/ilmHrtWZMa7FP3yCyJoHX6sSZjx.jpg"
+                }
+            ],
+            "name": "Days Gone Bye",
+            "overview": "Rick searches for his family after emerging from a coma into a world terrorized by the walking dead. Morgan and Duane, whom he meets along the way, help teach Rick the new rules for survival.",
+            "id": 63339,
+            "production_code": "101",
+            "season_number": 1,
+            "still_path": "/qDNQ2pliJbWjS0SBBuz85Pa5ilH.jpg",
+            "vote_average": 6.667,
+            "vote_count": 90
+        },
+        {
+            "air_date": "2010-11-07",
+            "crew": [
+                {
+                    "credit_id": "5256cb1b19c2956ff605c9ec",
+                    "department": "Directing",
+                    "gender": null,
+                    "id": 29779,
+                    "job": "Director",
+                    "name": "Michelle MacLaren",
+                    "profile_path": "/4yIeIS8ft8eANxR3I0jSrwVqT3a.jpg"
+                },
+                {
+                    "credit_id": "5256cb1b19c2956ff605c9ca",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 4027,
+                    "job": "Writer",
+                    "name": "Frank Darabont",
+                    "profile_path": "/fLKzpG3J88lPr8y8dCJbcFKN6iX.jpg"
+                }
+            ],
+            "episode_number": 2,
+            "guest_stars": [
+                {
+                    "character": "Morales",
+                    "credit_id": "5771445bc3a368159f0011fb",
+                    "gender": 2,
+                    "id": 1325945,
+                    "name": "Juan Gabriel Pareja",
+                    "order": 127,
+                    "profile_path": "/2twMI7bOz4V6NWModYn50pX7J4m.jpg"
+                },
+                {
+                    "character": "Amy Harrison",
+                    "credit_id": "5256cb3b19c2956ff605e292",
+                    "gender": 1,
+                    "id": 131820,
+                    "name": "Emma Bell",
+                    "order": 30,
+                    "profile_path": "/sJdiESyrBouoNufL36vCMdOLJjQ.jpg"
+                },
+                {
+                    "character": "Jim",
+                    "credit_id": "52a3fb52760ee363802e7096",
+                    "gender": 2,
+                    "id": 59581,
+                    "name": "Andrew Rothenberg",
+                    "order": 30,
+                    "profile_path": "/daNiuZmplaVjWcUqukYcAfDDSrC.jpg"
+                },
+                {
+                    "character": "Jacqui",
+                    "credit_id": "52a3fb6f760ee3509422a103",
+                    "gender": 0,
+                    "id": 60397,
+                    "name": "Jeryl Prescott",
+                    "order": 28,
+                    "profile_path": "/1rkN0DV0XMG7IS6tZ5hgLOijFfr.jpg"
+                },
+                {
+                    "character": "Merle Dixon",
+                    "credit_id": "5256cb3c19c2956ff605e406",
+                    "gender": 2,
+                    "id": 12132,
+                    "name": "Michael Rooker",
+                    "order": 27,
+                    "profile_path": "/bvmf7TIjCyRPrBNrmZ5qyePTL5y.jpg"
+                },
+                {
+                    "character": "Theodore 'T-Dog' Douglas",
+                    "credit_id": "5256cb3a19c2956ff605e218",
+                    "gender": 2,
+                    "id": 1040864,
+                    "name": "IronE Singleton",
+                    "order": 11,
+                    "profile_path": "/se9yc6LWsV67hNkdpbGbr4BuYqN.jpg"
+                }
+            ],
+            "name": "Guts",
+            "overview": "Rick unknowingly causes a group of survivors to be trapped by walkers. The group dynamic devolves from accusations to violence, as Rick must confront an enemy far more dangerous than the undead.",
+            "id": 63337,
+            "production_code": "102",
+            "season_number": 1,
+            "still_path": "/9wGCjzZMAd7wS4LrxJadQPUelnn.jpg",
+            "vote_average": 8.026,
+            "vote_count": 38
+        },
+        {
+            "air_date": "2010-11-14",
+            "crew": [
+                {
+                    "credit_id": "5256cb1d19c2956ff605cb37",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 1223868,
+                    "job": "Writer",
+                    "name": "Jack LoGiudice",
+                    "profile_path": null
+                },
+                {
+                    "credit_id": "5256cb1d19c2956ff605cb55",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 1212006,
+                    "job": "Writer",
+                    "name": "Charles H. Eglee",
+                    "profile_path": null
+                },
+                {
+                    "credit_id": "5256cb1d19c2956ff605cb75",
+                    "department": "Directing",
+                    "gender": null,
+                    "id": 1216419,
+                    "job": "Director",
+                    "name": "Gwyneth Horder-Payton",
+                    "profile_path": "/pBqR33KhQwbfUQSeSaFiZ3ztp6a.jpg"
+                },
+                {
+                    "credit_id": "5256cb1b19c2956ff605c9ca",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 4027,
+                    "job": "Writer",
+                    "name": "Frank Darabont",
+                    "profile_path": "/fLKzpG3J88lPr8y8dCJbcFKN6iX.jpg"
+                }
+            ],
+            "episode_number": 3,
+            "guest_stars": [
+                {
+                    "character": "Morales",
+                    "credit_id": "5771445bc3a368159f0011fb",
+                    "gender": 2,
+                    "id": 1325945,
+                    "name": "Juan Gabriel Pareja",
+                    "order": 127,
+                    "profile_path": "/2twMI7bOz4V6NWModYn50pX7J4m.jpg"
+                },
+                {
+                    "character": "Ed Peletier",
+                    "credit_id": "52a3fbda760ee3751b1393f5",
+                    "gender": 0,
+                    "id": 544362,
+                    "name": "Adam Minarovich",
+                    "order": 31,
+                    "profile_path": "/xZ5zFbS1dmuqJCgiaLvjZFTUGcL.jpg"
+                },
+                {
+                    "character": "Amy Harrison",
+                    "credit_id": "5256cb3b19c2956ff605e292",
+                    "gender": 1,
+                    "id": 131820,
+                    "name": "Emma Bell",
+                    "order": 30,
+                    "profile_path": "/sJdiESyrBouoNufL36vCMdOLJjQ.jpg"
+                },
+                {
+                    "character": "Jim",
+                    "credit_id": "52a3fb52760ee363802e7096",
+                    "gender": 2,
+                    "id": 59581,
+                    "name": "Andrew Rothenberg",
+                    "order": 30,
+                    "profile_path": "/daNiuZmplaVjWcUqukYcAfDDSrC.jpg"
+                },
+                {
+                    "character": "Sophia Peletier",
+                    "credit_id": "52a3fc0c760ee3159e24a07d",
+                    "gender": 1,
+                    "id": 935720,
+                    "name": "Madison Lintz",
+                    "order": 28,
+                    "profile_path": "/sc0ta9EJnIk8BmTCnu1ivNihjoR.jpg"
+                },
+                {
+                    "character": "Jacqui",
+                    "credit_id": "52a3fb6f760ee3509422a103",
+                    "gender": 0,
+                    "id": 60397,
+                    "name": "Jeryl Prescott",
+                    "order": 28,
+                    "profile_path": "/1rkN0DV0XMG7IS6tZ5hgLOijFfr.jpg"
+                },
+                {
+                    "character": "Merle Dixon",
+                    "credit_id": "5256cb3c19c2956ff605e406",
+                    "gender": 2,
+                    "id": 12132,
+                    "name": "Michael Rooker",
+                    "order": 27,
+                    "profile_path": "/bvmf7TIjCyRPrBNrmZ5qyePTL5y.jpg"
+                },
+                {
+                    "character": "Theodore 'T-Dog' Douglas",
+                    "credit_id": "5256cb3a19c2956ff605e218",
+                    "gender": 2,
+                    "id": 1040864,
+                    "name": "IronE Singleton",
+                    "order": 11,
+                    "profile_path": "/se9yc6LWsV67hNkdpbGbr4BuYqN.jpg"
+                }
+            ],
+            "name": "Tell It to the Frogs",
+            "overview": "After returning to the camp with the department store survivors and an emotional reunion with his wife and son, Rick decides to go against Shane's advice and go back to Atlanta for Merle Dixon and his dropped bag of guns accompanied by Merle's younger brother, Darryl Dixon, as well as Glenn and T-Dog.",
+            "id": 63338,
+            "production_code": "103",
+            "season_number": 1,
+            "still_path": "/wf6khmBquD2QUNiYBKCRPncJiYD.jpg",
+            "vote_average": 7.516,
+            "vote_count": 32
+        },
+        {
+            "air_date": "2010-11-21",
+            "crew": [
+                {
+                    "credit_id": "5274f826760ee37c930a9779",
+                    "department": "Directing",
+                    "gender": null,
+                    "id": 212408,
+                    "job": "Director",
+                    "name": "Johan Renck",
+                    "profile_path": "/bdzSLBSTBqVLLv0gKF8IiU1M4TD.jpg"
+                },
+                {
+                    "credit_id": "5256cb1a19c2956ff605c8ab",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 1223867,
+                    "job": "Writer",
+                    "name": "Robert Kirkman",
+                    "profile_path": null
+                }
+            ],
+            "episode_number": 4,
+            "guest_stars": [
+                {
+                    "character": "Morales",
+                    "credit_id": "5771445bc3a368159f0011fb",
+                    "gender": 2,
+                    "id": 1325945,
+                    "name": "Juan Gabriel Pareja",
+                    "order": 127,
+                    "profile_path": "/2twMI7bOz4V6NWModYn50pX7J4m.jpg"
+                },
+                {
+                    "character": "Ed Peletier",
+                    "credit_id": "52a3fbda760ee3751b1393f5",
+                    "gender": 0,
+                    "id": 544362,
+                    "name": "Adam Minarovich",
+                    "order": 31,
+                    "profile_path": "/xZ5zFbS1dmuqJCgiaLvjZFTUGcL.jpg"
+                },
+                {
+                    "character": "Amy Harrison",
+                    "credit_id": "5256cb3b19c2956ff605e292",
+                    "gender": 1,
+                    "id": 131820,
+                    "name": "Emma Bell",
+                    "order": 30,
+                    "profile_path": "/sJdiESyrBouoNufL36vCMdOLJjQ.jpg"
+                },
+                {
+                    "character": "Jim",
+                    "credit_id": "52a3fb52760ee363802e7096",
+                    "gender": 2,
+                    "id": 59581,
+                    "name": "Andrew Rothenberg",
+                    "order": 30,
+                    "profile_path": "/daNiuZmplaVjWcUqukYcAfDDSrC.jpg"
+                },
+                {
+                    "character": "Felipe",
+                    "credit_id": "52a3fc81760ee317be16011a",
+                    "gender": 2,
+                    "id": 53252,
+                    "name": "Noel Gugliemi",
+                    "order": 30,
+                    "profile_path": "/mI5urNyZJAzIGxelTjBkm624DkB.jpg"
+                },
+                {
+                    "character": "Sophia Peletier",
+                    "credit_id": "52a3fc0c760ee3159e24a07d",
+                    "gender": 1,
+                    "id": 935720,
+                    "name": "Madison Lintz",
+                    "order": 28,
+                    "profile_path": "/sc0ta9EJnIk8BmTCnu1ivNihjoR.jpg"
+                },
+                {
+                    "character": "Jacqui",
+                    "credit_id": "52a3fb6f760ee3509422a103",
+                    "gender": 0,
+                    "id": 60397,
+                    "name": "Jeryl Prescott",
+                    "order": 28,
+                    "profile_path": "/1rkN0DV0XMG7IS6tZ5hgLOijFfr.jpg"
+                },
+                {
+                    "character": "Theodore 'T-Dog' Douglas",
+                    "credit_id": "5256cb3a19c2956ff605e218",
+                    "gender": 2,
+                    "id": 1040864,
+                    "name": "IronE Singleton",
+                    "order": 11,
+                    "profile_path": "/se9yc6LWsV67hNkdpbGbr4BuYqN.jpg"
+                }
+            ],
+            "name": "Vatos",
+            "overview": "Rick, Glenn, T-Dog, and Daryl move on after their grisly discovery to retrieve the guns when they encounter a group of scavengers who narrowly beat them to the catch. However, Glenn is kidnapped in the scuffle, which leads to a tense stand-off and a surprising discovery. Meanwhile, back at camp, the group has to handle a serious situation when Jim begins acting unhinged.",
+            "id": 63336,
+            "production_code": "104",
+            "season_number": 1,
+            "still_path": "/9Q7hxPecLQUWIaTYRmNU1HNLjsf.jpg",
+            "vote_average": 7.911,
+            "vote_count": 28
+        },
+        {
+            "air_date": "2010-11-28",
+            "crew": [
+                {
+                    "credit_id": "5256cb2219c2956ff605d085",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 1216734,
+                    "job": "Writer",
+                    "name": "Glen Mazzara",
+                    "profile_path": null
+                },
+                {
+                    "credit_id": "5256cb2219c2956ff605d0c7",
+                    "department": "Directing",
+                    "gender": null,
+                    "id": 15521,
+                    "job": "Director",
+                    "name": "Ernest R. Dickerson",
+                    "profile_path": "/2WSGP4pQ2ICukCnbvFNeHRcMEIM.jpg"
+                }
+            ],
+            "episode_number": 5,
+            "guest_stars": [
+                {
+                    "character": "Ed Peletier",
+                    "credit_id": "52a3fbda760ee3751b1393f5",
+                    "gender": 0,
+                    "id": 544362,
+                    "name": "Adam Minarovich",
+                    "order": 31,
+                    "profile_path": "/xZ5zFbS1dmuqJCgiaLvjZFTUGcL.jpg"
+                },
+                {
+                    "character": "Amy Harrison",
+                    "credit_id": "5256cb3b19c2956ff605e292",
+                    "gender": 1,
+                    "id": 131820,
+                    "name": "Emma Bell",
+                    "order": 30,
+                    "profile_path": "/sJdiESyrBouoNufL36vCMdOLJjQ.jpg"
+                },
+                {
+                    "character": "Jim",
+                    "credit_id": "52a3fb52760ee363802e7096",
+                    "gender": 2,
+                    "id": 59581,
+                    "name": "Andrew Rothenberg",
+                    "order": 30,
+                    "profile_path": "/daNiuZmplaVjWcUqukYcAfDDSrC.jpg"
+                },
+                {
+                    "character": "Sophia Peletier",
+                    "credit_id": "52a3fc0c760ee3159e24a07d",
+                    "gender": 1,
+                    "id": 935720,
+                    "name": "Madison Lintz",
+                    "order": 28,
+                    "profile_path": "/sc0ta9EJnIk8BmTCnu1ivNihjoR.jpg"
+                },
+                {
+                    "character": "Dr. Edwin Jenner",
+                    "credit_id": "52a3fcf0760ee35a642e37b6",
+                    "gender": 2,
+                    "id": 11315,
+                    "name": "Noah Emmerich",
+                    "order": 28,
+                    "profile_path": "/iTPoDQq2R5zU17hRwLtWkm2gCmK.jpg"
+                },
+                {
+                    "character": "Jacqui",
+                    "credit_id": "52a3fb6f760ee3509422a103",
+                    "gender": 0,
+                    "id": 60397,
+                    "name": "Jeryl Prescott",
+                    "order": 28,
+                    "profile_path": "/1rkN0DV0XMG7IS6tZ5hgLOijFfr.jpg"
+                },
+                {
+                    "character": "Theodore 'T-Dog' Douglas",
+                    "credit_id": "5256cb3a19c2956ff605e218",
+                    "gender": 2,
+                    "id": 1040864,
+                    "name": "IronE Singleton",
+                    "order": 11,
+                    "profile_path": "/se9yc6LWsV67hNkdpbGbr4BuYqN.jpg"
+                }
+            ],
+            "name": "Wildfire",
+            "overview": "Everyone deals with the fallout of the walker attack. Andrea has to come to grips with the fate of her sister, while Jim is found out to have been bitten. With the camp clearly no longer safe, a decision must made about the direction they are to take.",
+            "id": 63340,
+            "production_code": "105",
+            "season_number": 1,
+            "still_path": "/evwBjSw9PHnvarsnvqAvSuqxjTy.jpg",
+            "vote_average": 7.519,
+            "vote_count": 26
+        },
+        {
+            "air_date": "2010-12-05",
+            "crew": [
+                {
+                    "credit_id": "5256cb2419c2956ff605d1ba",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 1223869,
+                    "job": "Writer",
+                    "name": "Adam Fierro",
+                    "profile_path": null
+                },
+                {
+                    "credit_id": "5256cb2419c2956ff605d1e2",
+                    "department": "Directing",
+                    "gender": null,
+                    "id": 43468,
+                    "job": "Director",
+                    "name": "Guy Ferland",
+                    "profile_path": "/nfDOPMhegfSlQMAVHfR3M8Grxfl.jpg"
+                },
+                {
+                    "credit_id": "5256cb1b19c2956ff605c9ca",
+                    "department": "Writing",
+                    "gender": null,
+                    "id": 4027,
+                    "job": "Writer",
+                    "name": "Frank Darabont",
+                    "profile_path": "/fLKzpG3J88lPr8y8dCJbcFKN6iX.jpg"
+                }
+            ],
+            "episode_number": 6,
+            "guest_stars": [
+                {
+                    "character": "Sophia Peletier",
+                    "credit_id": "52a3fc0c760ee3159e24a07d",
+                    "gender": null,
+                    "id": 935720,
+                    "name": "Madison Lintz",
+                    "order": 28,
+                    "profile_path": "/sc0ta9EJnIk8BmTCnu1ivNihjoR.jpg"
+                },
+                {
+                    "character": "Dr. Edwin Jenner",
+                    "credit_id": "52a3fcf0760ee35a642e37b6",
+                    "gender": null,
+                    "id": 11315,
+                    "name": "Noah Emmerich",
+                    "order": 28,
+                    "profile_path": "/iTPoDQq2R5zU17hRwLtWkm2gCmK.jpg"
+                },
+                {
+                    "character": "Jacqui",
+                    "credit_id": "52a3fb6f760ee3509422a103",
+                    "gender": null,
+                    "id": 60397,
+                    "name": "Jeryl Prescott",
+                    "order": 28,
+                    "profile_path": "/1rkN0DV0XMG7IS6tZ5hgLOijFfr.jpg"
+                },
+                {
+                    "character": "Theodore 'T-Dog' Douglas",
+                    "credit_id": "5256cb3a19c2956ff605e218",
+                    "gender": null,
+                    "id": 1040864,
+                    "name": "IronE Singleton",
+                    "order": 11,
+                    "profile_path": "/lKxvihaUzrTJj1tZJSprj7JhMhL.jpg"
+                }
+            ],
+            "name": "TS-19",
+            "overview": "Rick and the group are allowed into the CDC by a strange doctor, but all is not what it seems in their newfound haven.",
+            "id": 63341,
+            "production_code": "106",
+            "season_number": 1,
+            "still_path": "/mNRriwCHDpS3faTffHh2c7YkruL.jpg",
+            "vote_average": 8.055999999999999,
+            "vote_count": 27
+        }
+    ],
+    "name": "Season 1",
+    "overview": "",
+    "id": 3643,
+    "poster_path": "/yaOB2Y8GcoXwjNQ3apq67bMbNHF.jpg",
+    "season_number": 1
+}

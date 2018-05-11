@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+
+/*body {
+    margin: 0;
+    padding: 15px;
+    background-color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}*/
+
+#contentPH {
+    margin: 0 auto;
+}
+
+.contentPH-wrapper {
+    background: #fff;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.contentPH-wrapper-inner {
+    height: 260px;
+    padding: 15px;
+    position: relative;
+}
+
+.contentPH-wrapper-body div {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholdercontentPH;
+    -webkit-animation-timing-function: linear;
+    background: #f6f7f8;
+    background-image: -webkit-gradient(linear, left center, right center, from(#f6f7f8), color-stop(.2, #edeef1), color-stop(.4, #f6f7f8), to(#f6f7f8));
+    background-image: -webkit-linear-gradient(left, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 104px;
+    height: 104px;
+    position: relative;
+}
+
+.contentPH-wrapper-body {
+    -webkit-animation-name: contentPHAnimate;
+    background-image: -webkit-gradient(linear, center top, center bottom, from(deg), color-stop(0, red), color-stop(.15, orange), color-stop(.3, yellow), color-stop(.45, green), color-stop(.6, blue), color-stop(.75, indigo), color-stop(.8, violet), to(red));
+    background-image: -webkit-linear-gradient(135deg, red 0%, orange 15%, yellow 30%, green 45%, blue 60%, indigo 75%, violet 80%, red 100%);
+    background-repeat: repeat;
+    background-size: 50% auto;
+}
+
+.contentPH-wrapper-body div {
+    position: absolute;
+    right: 15px;
+    left: 15px;
+    top: 25px;
+}
+
+div.contentPH-avatar {
+    height: 70px;
+    width: 60px;
+    border-radius: 60px;
+    right: auto;
+}
+
+div.contentPH-hdr {
+    top: 40px;
+    height: 80px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+div.contentPH-label {
+    top: 135px;
+    height: 10px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+div.contentPH-content-1,
+div.contentPH-content-2,
+div.contentPH-content-3 {
+    left: 15px;
+    right: 15px;
+    height: 10px;
+}
+
+div.contentPH-content-1 {
+    top: 160px;
+    height: 1px;
+}
+
+div.contentPH-content-2 {
+    top: 175px;
+}
+
+div.contentPH-content-3 {
+    height: 40px;
+    top: 200px;
+}
+
+@-webkit-keyframes placeholdercontentPH {
+    0% {
+        background-position: -468px 0;
+    }
+    100% {
+        background-position: 468px 0;
+    }
+}
+
+@-webkit-keyframes contentPHAnimate {
+    from {
+        background-position: top left;
+    }
+    to {
+        background-position: top right;
+    }
+}

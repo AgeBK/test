@@ -1,0 +1,146 @@
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Redirect, Link, Switch } from "react-router-dom";
+import ScrollToTop from './ScrollToTop';
+import { hot } from 'react-hot-loader';
+import Header from './Header';
+import Footer from './Footer';
+import Rating from './Rating';
+import Loading from './Loading';
+import Info from './Info';
+import { NotFound } from './NotFound';
+import MainOuter from './MainOuter';
+import ShowList from './ShowList/ShowList';
+import Show from './Show/Show';
+import Actors from './Actors/Actors';
+import Actor from './Actors/Actor';
+import Config from '../config.json';
+import ErrorBoundry from './ErrorBoundry';
+import { hideContentPH, fetchHomeData, pageTitle, strConcat, uniqueId } from '../utils';
+
+// for dev only
+// const { whyDidYouUpdate } = require('why-did-you-update');
+// whyDidYouUpdate(React);
+
+class App extends Component {
+    constructor(props) {
+        super(props);
+
+        this.url = '';
+        this.searchTerm = '';
+    }
+
+    componentWillMount() {
+        document.title = pageTitle();
+    }
+
+    render() {
+        return (
+            <Router>
+                <ScrollToTop>
+                    <div className="container-fluid">
+                        <Route path='*' render={(props) => (
+                            <Header {...props} />
+                        )} />
+                        <Loading />
+                        <ErrorBoundry>
+                            <Switch>
+                                <Route exact path='/' render={(props) => (
+                                    <Home {...props} />
+                                )} />
+                                <Route exact path='/showlist' render={(props) => (
+                                    <ShowList {...props} url={this.url} searchTerm={this.searchTerm} />
+                                )} />
+                                <Route exact path='/showlist/:id' render={(props) => (
+                                    <Show {...props} />
+                                )} />
+                                <Route exact path='/actors' render={(props) => (
+                                    <Actors {...props} />
+                                )} />
+                                <Route exact path='/actors/:id' render={(props) => (
+                                    <Actor {...props} />
+                                )} />
+                                <Route exact path='/info' render={(props) => (
+                                    <Info {...props} />
+                                )} />
+                                <Route exact path="*" component={NotFound} />
+                            </Switch>
+                        </ErrorBoundry >
+                        <Footer />
+                    </div>
+                </ScrollToTop>
+            </Router>
+        );
+    }
+}
+
+class Home extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            data: []
+        };
+        this.categorys = Config.homePageCategories.split(','); // used in fetchHomeData
+        this.test = 12;
+    }
+
+    componentDidMount() {
+
+        //setTimeout(() => {
+        if (navigator.onLine) {
+            fetchHomeData.call(this, Config.homePageURLs.split(',')); // utils
+        }
+        else {
+            var hostJS = location.origin + Config.jsFolder; // offline
+            fetchHomeData.call(this, [hostJS + 'now_playing.json', hostJS + 'apipopularMOVIE.json', hostJS + 'top_rated.json', hostJS + 'upcoming.json']); // utils
+        }
+        //}, 5000);
+
+    }
+
+    render() {
+        if (this.state.data.length > 0) {
+            const arr = this.state.data;
+            const keys = uniqueId(arr.length);
+            return (
+                <MainOuter>
+                    <div className="col-12 intro">Check out some of the most popular categories below</div>
+                    {arr.map((obj, i) => {
+                        return (i) % 4 === 0 ?
+                            <Link key={keys[i]} to={{ pathname: 'showlist', state: { catSearch: obj } }} className="homeCat"><h2>{obj}</h2></Link> :
+                            <HomeItem key={keys[i]} {...obj} />;
+                    })}
+                </MainOuter>
+            );
+        }
+        return null;
+    }
+}
+
+const HomeItem = props => {
+
+    const { poster_path: posterPath, css_class: cssClass, id, overview, title, vote_average: voteAvg } = props;
+    const reSpaces = new RegExp(Config.reRemoveSpaces, 'g');
+    const reSpecials = new RegExp(Config.reRemoveSpacesSpecials, 'g');
+    const link = '/showlist/' + title.replace(reSpecials, '');
+    const css = 'col-md-4 homeItem ' + cssClass.replace(reSpaces, '').toLowerCase(); // Now Playing to nowplaying etc
+    const image = navigator.onLine ? Config.imgResizeURL + posterPath : Config.pulpFictCover;
+    const strOverview = strConcat(overview, Config.strLength250);
+
+    return (
+        <div className={css}>
+            <Link to={{ pathname: link, state: { id: id, mediaType: 'movie' } }} className="image">
+                <img src={image} alt={title} title={title} />
+            </Link>
+            <div className="details">
+                <Link to={{ pathname: link, state: { id: id, mediaType: 'movie' } }}><h3>{title}</h3></Link>
+                <div className="plot">{strOverview} <br />
+                    <Link to={{ pathname: link, state: { id: id, mediaType: 'movie' } }} className="btn stdBtn">Find out more..</Link>
+                </div>
+                <Rating score={voteAvg} />
+            </div>
+        </div>
+    );
+};
+
+export default hot(module)(App);

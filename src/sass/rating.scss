@@ -1,0 +1,47 @@
+// Rating component style
+.single-chart {
+    .rate {
+        color: $White;
+        text-shadow: 2px 2px 2px $Black;
+        text-align: center;
+        font-weight: bold;
+    }
+    svg {
+        display: block;
+        margin: 10px auto;
+        max-width: 80%;
+        max-height: 40px;
+        height: 40px;
+        .circle-bg {
+            fill: none;
+            stroke: #eee;
+            stroke-width: 3.8;
+        }
+        .circle {
+            fill: none;
+            stroke-width: 2.8;
+            stroke-linecap: round;
+            animation: progress 2s ease-out forwards;
+        }
+        &.yellow .circle {
+            stroke: #ff0;
+        }
+        &.green .circle {
+            stroke: #4CC790;
+        }
+        &.red .circle {
+            stroke: #f00;
+        }
+        .percentage {
+            fill: #666;
+            font-family: sans-serif;
+            font-size: 9px;
+            text-anchor: middle;
+        }
+        @keyframes progress {
+            0% {
+                stroke-dasharray: 0 100;
+            }
+        }
+    }
+}
